@@ -4,6 +4,12 @@
 
 ---
 
+## 🚀 Live App
+
+👉 **[Open in Streamlit](https://smartjournal.streamlit.app/)**
+
+---
+
 ## 🚀 Features
 
 - Predicts calories burned using machine learning models
