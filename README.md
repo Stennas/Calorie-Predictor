@@ -6,7 +6,7 @@
 
 ## 🚀 Live App
 
-👉 **[Open in Streamlit](https://smartjournal.streamlit.app/)**
+👉 **[Open in Streamlit](https://smartburn.streamlit.app/)**
 
 ---
 
