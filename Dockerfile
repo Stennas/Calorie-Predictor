@@ -7,10 +7,6 @@ WORKDIR /app
 #Copy dependency list
 COPY requirements.txt .
 
-#Upgrade pip + install with longer timeout
-RUN pip install --upgrade pip
-RUN pip install --default-timeout=100  --no-cache-dir -r requirements.txt
-
 #Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
