@@ -1,21 +1,20 @@
 import streamlit as st
 import pickle
-import pandas as pd
 import numpy as np
 import os
 
-# -------------------------------
+# -----------------------------------
 # Load Models (Robust Path Handling)
-# -------------------------------
+# -----------------------------------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-with open(os.path.join(BASE_DIR, 'model_hr.pkl'), 'rb') as f:
+with open(os.path.join(BASE_DIR, 'models/model_hr.pkl'), 'rb') as f:
     model_hr = pickle.load(f)
 
-with open(os.path.join(BASE_DIR, 'model_bt.pkl'), 'rb') as f:
+with open(os.path.join(BASE_DIR, 'models/model_bt.pkl'), 'rb') as f:
     model_bt = pickle.load(f)
 
-with open(os.path.join(BASE_DIR, 'model_cal.pkl'), 'rb') as f:
+with open(os.path.join(BASE_DIR, 'models/model_cal.pkl'), 'rb') as f:
     model_cal = pickle.load(f)
 
 # -------------------------------
